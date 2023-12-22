@@ -76,6 +76,10 @@ window.onscroll = () => {
     $(".menu").removeClass("fa-times");
 };
 
+$(".info-card").each(function () {
+    var closestRow = $(this).closest(".row");
+    closestRow.addClass("extra-margin");
+});
 // Rest of the code...
 
 

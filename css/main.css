@@ -4,7 +4,7 @@
 
 :root {
     /* Most text and often a background colour (eg menus, footer, page headers) */
-    --color-default: #014D85;
+    --color-default: #a90000;
     /* Used as a general highlight/background colour, for hyperlinks and an option for page headers */
     --color-primary: #5000F2;
     /* Often used for hoverstates as well as a colour option for page headers */
@@ -25,7 +25,7 @@
     --color-white: #FFFFFF;
     /* Anchor Text Color */
     --color-anchor: #4100C2;
-    --color-black: #000000;
+    --color-black: #1b1b1b;
     --color-light-gray: #F2F2F2;
     --color-outline-focus: #FF8A00;
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
@@ -1009,6 +1009,7 @@ header .search-box {
     position: relative;
     z-index: 99;
     min-height: 84px;
+    background-color: var(--color-default);
 }
 
 @media(max-width: 992px) {
@@ -1058,7 +1059,7 @@ header .search-box {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    color: #000000;
+    color: var(--color-white);
     position: relative;
     text-transform: capitalize;
     transition: color 0.3s ease;
@@ -2172,7 +2173,7 @@ a:focus .info-card .info-card-header {
     font-size: 14px;
     margin-top: 20px;
     margin-bottom: 0;
-    color: var(--color-default);
+    color: var(--color-black);
 }
 
 .info-card .card-img-small {
@@ -5487,6 +5488,7 @@ blockquote p,
 .testimonial-text {
     font-size: 19px;
     line-height: 30px;
+    color: var(--color-black);
     /* padding-inline: 10%; */
 }
 
