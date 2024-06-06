@@ -2482,7 +2482,8 @@ a:focus .info-card .info-card-header {
     font-size: 0.875rem;
     margin-top: 20px;
     margin-bottom: 0;
-    color: var(--color-default);
+   /* color: var(--color-default); */
+	color: var(--color-black);
 }
 
 .info-card .card-img-small {
