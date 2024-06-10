@@ -234,6 +234,18 @@ h6,
     font-weight: 700;
 }
 
+.mtop-1 {
+    margin-top: 1rem !important;
+}
+
+.mtop-2{
+    margin-top: 2rem !important;
+}
+
+.mtop-3 {
+    margin-top: 3rem !important;
+}
+
 .mtop-5 {
     margin-top: 5rem !important;
 }
@@ -2611,7 +2623,7 @@ a:focus .info-card .info-card-header {
 
 .info-card.news-info .date {
     font-size: 0.875rem;
-    color: var(--color-default);
+    color: var(--color-black);
 }
 
 /*************News Center******************/
