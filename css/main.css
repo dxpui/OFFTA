@@ -2327,6 +2327,9 @@ header .search-box {
     text-decoration: none;
 }
 
+.info-card-kpi-cls{
+    pointer-events: none !important;
+}
 .info-card-kpi {
     pointer-events: none !important;
 }
