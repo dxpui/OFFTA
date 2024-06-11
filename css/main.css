@@ -2327,6 +2327,14 @@ header .search-box {
     text-decoration: none;
 }
 
+.info-card-kpi {
+    pointer-events: none !important;
+}
+
+.info-card-kpi::before {
+    background-color: transparent !important;
+}
+
 a:focus-visible .info-card {
     background-color: var(--color-secondary);
     transition: all 0.3s ease-in-out;
