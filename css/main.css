@@ -31,6 +31,7 @@
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     --btn-focus-box-shadow: 0 0 0 0.25rem rgb(255 137 0 / 100%);
     --font-family-default: 'Sora', sans-serif;
+    --font-family-calibri: 'Calibri', sans-serif;
     --line-height-default: 1.5;
 }
 
@@ -48,9 +49,10 @@
 
 body {
     /* color: var(--color-default); */
-    font-family: var(--font-family-default);
+    /* font-family: var(--font-family-default); */
+    font-family: var(--font-family-calibri);
     font-weight: 400;
-    font-size: 0.875rem;
+    font-size: 1rem;
     line-height: var(--line-height-default);
     overflow-x: hidden;
     max-width: 1800px;
@@ -160,7 +162,7 @@ h4,
 
 h5,
 .h5 {
-    font-size: 0.875rem;
+    font-size: 1rem;
     line-height: 145%;
     word-wrap: break-word;
 }
@@ -254,6 +256,13 @@ h6,
     margin-top: 6rem !important;
 }
 
+.mLeft-4 {
+    margin-left: 3.5rem !important;
+}
+
+.mLeft-5 {
+    margin-left: 5rem !important;
+}
 .component-margin {
     margin-top: 3rem;
 }
@@ -555,7 +564,7 @@ video:focus-visible {
 
 @media(max-width: 768px) {
     .button-subscribe {
-        font-size: 0.875rem;
+        font-size: 1rem;
     }
 }
 
@@ -725,7 +734,7 @@ a.purple-btn:focus-visible {
 
 .video-btn {
     background-color: var(--color-default);
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 
 .btn-close:focus {
@@ -1251,7 +1260,7 @@ header .search-box {
 .header .menu>ul>li .sub-menu.mega-menu>.list-item>ul>li>a {
     padding: 7px 0;
     display: inline-block;
-    font-size: 0.875rem;
+    font-size: 1rem;
     color: var(--color-white);
     transition: color 0.3s ease;
     text-decoration: none;
@@ -1299,7 +1308,7 @@ header .search-box {
 }
 
 .header .menu>ul>li .sub-menu.mega-menu-column-4>.list-item .title span {
-    font-size: 0.875rem;
+    font-size: 1rem;
     width: 90%;
     line-height: 150%;
 }
@@ -1611,7 +1620,7 @@ header .search-box {
 
 .sub-topic {
     margin-right: auto;
-    font-size: 0.875rem;
+    font-size: 1rem;
     color: var(--color-white);
     width: 100%;
     line-height: 150%;
@@ -1685,7 +1694,7 @@ header .search-box {
 }
 
 .carousel-txt-cls {
-    font-size: 0.875rem;
+    font-size: 1rem;
     line-height: 1.313rem;
     font-weight: 400;
     margin-top: 20px;
@@ -1835,12 +1844,12 @@ header .search-box {
 }
 
 .hero-banner-narrow {
-    padding: 30px 10px 30px 10px;
+    padding: 20px 10px 0px 10px;
 }
 
 @media(min-width: 992px) {
     .hero-banner-narrow {
-        padding: 50px 10px 50px 10px;
+        padding: 30px 10px 0px 10px;
     }
 }
 
@@ -2262,6 +2271,7 @@ header .search-box {
 .breadcrumb-position .breadcrumb .breadcrumb-item {
     font-size: 0.7rem;
     line-height: 1.375rem;
+    font-weight: bold;
     /* white-space: nowrap;
     overflow: hidden;
     min-width: 35px; */
@@ -2502,7 +2512,7 @@ a:focus .info-card .info-card-header {
 
 .info-card p {
     font-style: normal;
-    font-size: 0.875rem;
+    font-size: 1rem;
     margin-top: 20px;
     margin-bottom: 0;
    /* color: var(--color-default); */
@@ -2584,7 +2594,7 @@ a:focus .info-card .info-card-header {
 }
 
 .info-card ul li a {
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 
 .info-card ul li a:hover {
@@ -2616,7 +2626,7 @@ a:focus .info-card .info-card-header {
 }
 
 .search-quick-link .info-card.news-info .info-card-header {
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 
 .info-card.news-info:hover {
@@ -2633,7 +2643,7 @@ a:focus .info-card .info-card-header {
 }
 
 .info-card.news-info .date {
-    font-size: 0.875rem;
+    font-size: 1rem;
     color: var(--color-black);
 }
 
@@ -2653,7 +2663,7 @@ a:focus .info-card .info-card-header {
 .info-card.news-center a {
     margin-bottom: 24px;
     color: var(--color-default);
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 
 .info-card.news-center a:hover {
@@ -2663,7 +2673,7 @@ a:focus .info-card .info-card-header {
 .info-card.news-center .info-card-header {
     margin-bottom: 24px;
     color: var(--color-default);
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 
 .info-card.news-center .info-card-header:hover {
@@ -2671,7 +2681,7 @@ a:focus .info-card .info-card-header {
 }
 
 .info-card.news-center .date {
-    font-size: 0.875rem;
+    font-size: 1rem;
     color: var(--color-default);
 }
 
@@ -3075,7 +3085,7 @@ a:focus .info-card.news-center:before {
 }
 
 .footer .about-ofcom li {
-    font-size: 0.875rem;
+    font-size: 1rem;
     margin-bottom: 14px;
     line-height: 1.313rem;
 }
@@ -3094,11 +3104,11 @@ a:focus .info-card.news-center:before {
 }
 
 /* .footer h3 {
-    font-size: 0.875rem;
+    font-size: 1rem;
 } */
 
 :is(.footer) :is(h1, h2, h3, h4, h5, h6) {
-    font-size: 0.875rem;
+    font-size: 1rem;
 }
 
 .footer .social-icons-list a {
@@ -3232,7 +3242,7 @@ a:focus .info-card.news-center:before {
 .mySwiper {
     width: 100%;
     height: 100%;
-    padding: 15px 0px 60px 0px;
+    padding: 0px 0px 60px 0px;
     overflow: unset;
 }
 
@@ -3272,8 +3282,8 @@ a:focus .info-card.news-center:before {
 
 /******************* News Page ******************************/
 .news-container-area {
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
     overflow: hidden;
 }
 
@@ -4046,7 +4056,7 @@ a:focus .pdfdownload {
 }
 
 .serach-date {
-    font-size: 0.875rem;
+    font-size: 1rem;
     margin: 10px 0;
 }
 
@@ -4131,7 +4141,7 @@ a:focus .pdfdownload {
 }
 
 .static-callout p {
-    font-size: 0.875rem;
+    font-size: 1rem;
     margin: 20px 0;
     display: flex;
     justify-content: center;
@@ -4151,7 +4161,7 @@ a:focus .pdfdownload {
 }
 
 .callout-light p {
-    font-size: 0.875rem;
+    font-size: 1rem;
     margin: 20px 0;
 }
 
@@ -4188,7 +4198,7 @@ a:focus .pdfdownload {
 }
 
 .callout-fill p {
-    font-size: 0.875rem;
+    font-size: 1rem;
     margin: 20px 0;
     color: var(--color-white);
 }
@@ -4448,7 +4458,7 @@ a:focus .pdfdownload {
 
 .carousel-count .img-caption,
 .carousel-count .carouselnumber {
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.313rem;
 }
@@ -4699,7 +4709,7 @@ a:focus .pdfdownload {
 .modal-time-list li a,
 .modal-content-list li a {
     font-family: var(--font-family-default);
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.313rem;
 }
@@ -4722,7 +4732,7 @@ a:focus .pdfdownload {
     background-color: var(--color-default);
     border: 1px solid var(--color-white);
     color: var(--color-white);
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.313rem;
     padding: 10px 20px;
@@ -5373,7 +5383,7 @@ padding-right: 80px; */
 .modal-popup-close-btn {
     background-color: white;
     font-family: var(--font-family-default);
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.313rem;
     padding: 10px 20px;
@@ -5452,7 +5462,7 @@ padding-right: 80px; */
 .language-trans-btn {
     background-color: var(--color-default);
     font-family: var(--font-family-default);
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.313rem;
     padding: 9px 20px;
@@ -6535,6 +6545,10 @@ a#purple {
 
 .csq-btn img {
     height: 72px;
+}
+
+.color-black{
+    color: var(--color-black) !important;
 }
 
 .csq-button {
