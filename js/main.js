@@ -1244,6 +1244,15 @@ function checkTouch() {
     }
 }
 
+$(".teaser-cards .load-more").click(function (e) {
+    e.preventDefault = true;
+    var loadMoreCount = $(".teaser-cards").data("initcount");
+    var hiddenTeaserCards = $(".teaser-card.d-none");
+    $(hiddenTeaserCards).slice(0, loadMoreCount).removeClass("d-none").slideDown('slow');
+    if (hiddenTeaserCards.length <= loadMoreCount) {
+        $(".load-more").addClass("d-none");
+    }
+});
 
 $(document).ready(function () {
     var searchBHeight = $(".news-centre-page #recommendation-block-height").height();
