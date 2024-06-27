@@ -3082,6 +3082,7 @@ a:focus .info-card.news-center:before {
     background-color: var(--color-default);
     font-size: 0.875rem !important;
     line-height: 1.313rem;
+    margin-top: 3rem;
 }
 
 .footer .about-ofcom li {
