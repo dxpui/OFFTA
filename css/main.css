@@ -2065,7 +2065,7 @@ header .search-box {
 }
 
 /* .search-filter .accordion {
-    --bs-accordion-btn-active-icon: url("../assets/img/web-icons/arrow-white.svg");
+    --bs-accordion-btn-active-icon: url("/assets/img/web-icons/arrow-white.svg");
 } */
 
 .search-filter .accordion-header .accordion-button {
@@ -3619,7 +3619,7 @@ a:focus .info-card.news-center:before {
 # Accordion 
 --------------------------------------------------------------*/
 .destination-accordian .accordion-button::after {
-    background-image: url("../assets/img/web-icons/Accordion expand.svg");
+    background-image: url("/assets/img/web-icons/Accordion expand.svg");
     transform: scale(.7) !important;
     color: var(--color-default);
     background-size: 48px 48px;
@@ -3627,17 +3627,17 @@ a:focus .info-card.news-center:before {
 }
 
 .destination-accordian .accordion-button:not(.collapsed)::after {
-    background-image: url("../assets/img/web-icons/Accordion contract.svg");
+    background-image: url("/assets/img/web-icons/Accordion contract.svg");
     font-size: 2.5rem;
     color: var(--color-default);
 }
 
 .destination-accordian .accordion-header:hover .accordion-button::after {
-    background-image: url("../assets/img/web-icons/Accordion\ expand\ -\ orange.svg");
+    background-image: url("/assets/img/web-icons/Accordion\ expand\ -\ orange.svg");
 }
 
 .destination-accordian .accordion-header:hover .accordion-button:not(.collapsed)::after {
-    background-image: url("../assets/img/web-icons/Accordion\ contract\ -\ orange.svg");
+    background-image: url("/assets/img/web-icons/Accordion\ contract\ -\ orange.svg");
 }
 
 /* .destination-accordian .accordion-button.collapsed {
@@ -5645,13 +5645,13 @@ padding-right: 80px; */
 }
 
 .pagination-block .single-arrow-clear {
-    background-image: url(../assets/img/web-icons/single-arrow-clear.svg);
+    background-image: url(/assets/img/web-icons/single-arrow-clear.svg);
     width: 45px;
     height: 45px;
 }
 
 .pagination-block .double-arrow-clear {
-    background-image: url(../assets/img/web-icons/double-arrow-clear.svg);
+    background-image: url(/assets/img/web-icons/double-arrow-clear.svg);
     width: 45px;
     height: 45px;
 }
@@ -5659,7 +5659,7 @@ padding-right: 80px; */
 .pagination-block .single-arrow-clear.disabled,
 .pagination-block .single-arrow-clear.disabled:hover,
 .pagination-block .single-arrow-clear.disabled:focus-visible {
-    background-image: url(../assets/img/web-icons/single-arrow-clear-dis.svg);
+    background-image: url(/assets/img/web-icons/single-arrow-clear-dis.svg);
     pointer-events: none;
     outline: none;
 }
@@ -5667,19 +5667,19 @@ padding-right: 80px; */
 .pagination-block .double-arrow-clear.disabled,
 .pagination-block .double-arrow-clear.disabled:hover,
 .pagination-block .double-arrow-clear.disabled:focus-visible {
-    background-image: url(../assets/img/web-icons/double-arrow-clear-dis.svg);
+    background-image: url(/assets/img/web-icons/double-arrow-clear-dis.svg);
     pointer-events: none;
     outline: none;
 }
 
 .pagination-block .single-arrow-clear:hover,
 .pagination-block .single-arrow-clear:focus-visible {
-    background-image: url(../assets/img/web-icons/single-arrow-blue.svg);
+    background-image: url(/assets/img/web-icons/single-arrow-blue.svg);
 }
 
 .pagination-block .double-arrow-clear:hover,
 .pagination-block .double-arrow-clear:focus-visible {
-    background-image: url(../assets/img/web-icons/double-arrow-blue.svg);
+    background-image: url(/assets/img/web-icons/double-arrow-blue.svg);
 }
 
 .pagination-block .page-item {
