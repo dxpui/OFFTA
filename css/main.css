@@ -6772,3 +6772,8 @@ agendas-container agendas-item agendas-published {
         height: 620px;
     }
 }
+
+.category-result-not-found {
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+}
