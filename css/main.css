@@ -1093,7 +1093,7 @@ header .search-box {
 
 @media(max-width: 576px) {
     .brand-logo {
-        height: 24px;
+        height: 30px;
     }
 }
 
@@ -1372,7 +1372,7 @@ header .search-box {
     }
 
     .header .mobile-menu-trigger i {
-        color: var(--color-default);
+        color: var(--color-white);
     }
 
     .header .mobile-menu-trigger span:before,
@@ -1463,7 +1463,7 @@ header .search-box {
         position: relative;
         z-index: 501;
         position: sticky;
-        background-color: var(--color-primary);
+        background-color: var(--color-default);
         top: 0;
     }
 
