@@ -1261,9 +1261,28 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+
+    var cookies = document.cookie
+        .split(';')
+        .map(cookie => cookie.split('='))
+        .reduce((accumulator, [key, value]) =>
+            ({ ...accumulator, [key.trim()]: decodeURIComponent(value) }),
+            {});
+
+    if (cookies.CookieAgreement == 'true') {
+        $(".cookie-banner").addClass("d-none");
+    } else {
+        $(".cookie-banner").removeClass("d-none");
+    }
+
     $("#selectCategory li a").on("click", function () {
-    var text = $(this).text();
-    $("#dropdownMenuButton1").html(text + '&nbsp;<span class="caret"></span>');
+        var text = $(this).text();
+        $("#dropdownMenuButton1").html(text + '&nbsp;<span class="caret"></span>');
+    });
+
+    $(".cookie-accept").click(function (e) {
+        document.cookie = `CookieAgreement=${true}`;
+        $(".cookie-banner").addClass("d-none");
     });
 });
 
@@ -1308,3 +1327,4 @@ $(".dropdown-menu.category li a").on("click", function () {
     hideOrShowElementByCategory(questions, dropdownVal);
     renderNotFoundDiv(case_study_items)
 });
+

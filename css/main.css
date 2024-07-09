@@ -6777,3 +6777,73 @@ agendas-container agendas-item agendas-published {
     margin-top: 2rem;
     margin-bottom: -2rem;
 }
+
+.cookie-banner {
+        background-color: #000 !important;
+        color: #fff !important;
+        padding: 1.25rem 0 .625rem;
+        width: 100%;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.69rem;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+        text-align: left;
+        text-size-adjust: 100%;
+        font-family: Arial, lato, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    }
+
+.cookie-accept {
+    background: 0 0;
+    border: none;
+    color: #fff;
+    font-size: initial;
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-decoration: underline;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline;
+    font-family: Arial, lato, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: auto;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    text-align: left;
+    text-size-adjust: 100%;
+    text-transform: capitalize;
+}
+
+.cookie-more-info {
+    background: 0 0;
+    border: none;
+    color: #fff;
+    font-size: initial;
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-decoration: underline;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: Arial, lato, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: auto;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    text-align: left;
+    text-size-adjust: 100%;
+    text-transform: capitalize;
+}
+
+.cookie-banner a, .policy-banner a {
+    color: #f2f2f2;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
