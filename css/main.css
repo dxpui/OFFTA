@@ -263,6 +263,22 @@ h6,
 .mLeft-5 {
     margin-left: 5rem !important;
 }
+
+.pl-0{
+    padding-left: 0px !important;
+
+    @media (min-width:1025px){
+        padding-left: 4px !important;
+    }
+    
+}
+
+.mLeft-4-web {
+    @media (min-width:1025px){
+        margin-left: 3.5rem !important;
+    }
+    
+}
 .component-margin {
     margin-top: 3rem;
 }
@@ -6849,4 +6865,11 @@ agendas-container agendas-item agendas-published {
 }
 .copyright-mtop-1 {
     margin-top: 1rem !important;
+}
+.accordion-button.collapsed i {
+    color: red !important;
+}
+
+.accordion-button:not(.collapsed) i {
+    color: green !important;
 }
