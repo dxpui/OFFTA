@@ -255,13 +255,19 @@ h6,
 .mtop-6 {
     margin-top: 6rem !important;
 }
-
 .mLeft-4 {
-    margin-left: 3.5rem !important;
+    @media (min-width:1025px) {
+        margin-left: 3.5rem !important;
+    }
 }
 
 .mLeft-5 {
-    margin-left: 5rem !important;
+    margin-left: 1rem !important;
+    @media (min-width:1025px) {
+        margin-left: 5rem !important;
+    }
+  
+
 }
 
 .pl-0{
