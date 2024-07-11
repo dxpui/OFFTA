@@ -6873,3 +6873,12 @@ agendas-container agendas-item agendas-published {
 .accordion-button:not(.collapsed) i {
     color: green !important;
 }
+
+.papers-bg {
+    background-color: #F5F5F5;
+    background-clip: content-box;
+}
+
+.papers-bg span {
+    bottom: 11px;
+}
