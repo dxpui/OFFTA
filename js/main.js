@@ -1246,11 +1246,11 @@ function checkTouch() {
 
 $(".teaser-cards .load-more").click(function (e) {
     e.preventDefault = true;
-    var loadMoreCount = $(".teaser-cards").data("initcount");
-    var hiddenTeaserCards = $(".teaser-card.d-none");
+    var loadMoreCount = $(e.target).closest("section").data("initcount");
+    var hiddenTeaserCards = $(e.target).closest("section").find(".teaser-card.d-none");
     $(hiddenTeaserCards).slice(0, loadMoreCount).removeClass("d-none").slideDown('slow');
     if (hiddenTeaserCards.length <= loadMoreCount) {
-        $(".load-more").addClass("d-none");
+        $(e.target).addClass("d-none");
     }
 });
 
