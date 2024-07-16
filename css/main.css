@@ -3641,7 +3641,7 @@ a:focus .info-card.news-center:before {
 # Accordion 
 --------------------------------------------------------------*/
 .destination-accordian .accordion-button::after {
-    background-image: url("/assets/img/web-icons/Accordion expand.svg");
+    background-image: url("/assets/img/web-icons/Accordion-expand-ofta.svg");
     transform: scale(.7) !important;
     color: var(--color-default);
     background-size: 48px 48px;
@@ -3649,17 +3649,17 @@ a:focus .info-card.news-center:before {
 }
 
 .destination-accordian .accordion-button:not(.collapsed)::after {
-    background-image: url("/assets/img/web-icons/Accordion contract.svg");
+    background-image: url("/assets/img/web-icons/Accordion-contract-ofta.svg");
     font-size: 2.5rem;
     color: var(--color-default);
 }
 
 .destination-accordian .accordion-header:hover .accordion-button::after {
-    background-image: url("/assets/img/web-icons/Accordion\ expand\ -\ orange.svg");
+    background-image: url("/assets/img/web-icons/Accordion-expand-red.svg");
 }
 
 .destination-accordian .accordion-header:hover .accordion-button:not(.collapsed)::after {
-    background-image: url("/assets/img/web-icons/Accordion\ contract\ -\ orange.svg");
+    background-image: url("/assets/img/web-icons/Accordion-contract-red.svg");
 }
 
 /* .destination-accordian .accordion-button.collapsed {
