@@ -6888,3 +6888,7 @@ agendas-container agendas-item agendas-published {
 .papers-bg span {
     bottom: 11px;
 }
+
+.callout-block-white {
+    color: var(--color-white);
+}
