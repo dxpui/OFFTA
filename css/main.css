@@ -1533,6 +1533,7 @@ header .search-box {
         height: 100%;
         overflow-x: hidden;
         overflow-y: auto;
+        border-top: 1px solid #939393 !important;
     }
 
     .header .menu>ul>li .sub-menu.mega-menu,
@@ -6891,4 +6892,8 @@ agendas-container agendas-item agendas-published {
 
 .callout-block-white {
     color: var(--color-white);
+}
+
+li.menu-item-has-children {
+    border-top: 2px solid #939393 !important;
 }
