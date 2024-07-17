@@ -1208,16 +1208,16 @@ $(document).ready(function () {
     }
 });
 
-//This will trim the end 'forward slash' in all hyperlinks
+// To trim the end 'forward slash' in all media file hyperlinks
 $(document).ready(function () {
     $("a").each(function () {
         var href = $(this).attr("href");
-        if (href && href.length > 1 && href.endsWith('/')) {
+        if (href && href.length > 1 && (href.indexOf("/globalassets/") > 0 || href.indexOf("/siteassets/") > 0 || href.indexOf("/contentassets/") > 0) && href.endsWith('/')) {
             $(this).attr("href", href.slice(0, -1));
         }
     });
 });
-
+    
 $(document).ready(function () {
     checkTouch();
     $(window).resize(function () {
