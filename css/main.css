@@ -6897,3 +6897,21 @@ agendas-container agendas-item agendas-published {
 li.menu-item-has-children {
     border-top: 2px solid #939393 !important;
 }
+.rtedesc .rich-text-block .pdf-content {
+    position: relative;
+}
+
+.rtedesc .rich-text-block .pdf-content:before {
+    content: "\f1c1";
+    font-family: FontAwesome;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 3px;
+}
+
+.rtedesc .rich-text-block .pdf-content a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-default);
+}
