@@ -3230,9 +3230,13 @@ a:focus .info-card.news-center:before {
 }
 
 @media(max-width: 576px) {
-    .footer section.social {
-        margin-bottom: 30px !important;
+    .footer-logo-align{
+        margin-bottom: 5% !important;
+        margin-top: 7% !important;
     }
+    /* .footer section.social {
+        margin-bottom: 30px !important;
+    } */
 }
 
 
