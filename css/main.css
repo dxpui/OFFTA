@@ -6898,9 +6898,9 @@ agendas-container agendas-item agendas-published {
     color: var(--color-white);
 }
 
-li.menu-item-has-children {
+/* li.menu-item-has-children {
     border-top: 2px solid #939393 !important;
-}
+} */
 .rtedesc .rich-text-block .pdf-content {
     position: relative;
 }
