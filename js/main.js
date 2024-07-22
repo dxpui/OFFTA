@@ -1244,6 +1244,20 @@ function checkTouch() {
     }
 }
 
+// Esc functionality
+$(document).on('keydown', function (e) {
+    if (e.keyCode === 27) { // ESC
+        $('.header .menu>ul>li> button').removeAttr('tabindex')
+        $('.menu').removeClass('active');
+        $('.sub-menu').removeClass('active');
+        $(".sub-menu").removeClass("sub-menu-show");
+        $(".fa-angle-down").removeClass("rotate-arrow");
+    }
+    else if (e.keyCode === 13) {//enter
+        menuMain();
+    }
+});
+
 $(".teaser-cards .load-more").click(function (e) {
     e.preventDefault = true;
     var loadMoreCount = $(e.target).closest("section").data("initcount");
