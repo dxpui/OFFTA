@@ -50,8 +50,9 @@ function showSubMenu(hasChildren) {
     const menuTitle = hasChildren.querySelector("i").parentNode.childNodes[0].textContent;
     $(".menu .mobile-menu-head").addClass("active");
     $(".menu .current-menu-title").text(menuTitle);
-    $('.header .menu>ul>li> a').attr('tabindex', '-1')
-    // $(".menu .mobile-menu-head").addClass("active");
+    if ($(".menu").hasClass("mobile-menu-head")) {
+        $('.header .menu>ul>li> button').attr('tabindex', '-1');
+    }
 }
 
 function hideSubMenu() {
