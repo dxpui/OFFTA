@@ -3280,7 +3280,7 @@ a:focus .info-card.news-center:before {
 
 @media(max-width: 768px) {
     .swiper-outer {
-        margin-left: 30px;
+        margin-left: 5px;
     }
 
     .mySwiper {
