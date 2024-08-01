@@ -2292,8 +2292,8 @@ header .search-box {
 }
 
 .breadcrumb-position .breadcrumb .breadcrumb-item {
-    font-size: 0.7rem;
-    line-height: 1.375rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
     font-weight: bold;
     /* white-space: nowrap;
     overflow: hidden;
@@ -6918,4 +6918,15 @@ agendas-container agendas-item agendas-published {
     font-weight: 400;
     font-size: 14px;
     color: var(--color-default);
+}
+
+.swiper-slide.swiper-slide-active {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+@media (min-width: 992px) {
+    .BI-report-height {
+        height: 500px;
+    }
 }
