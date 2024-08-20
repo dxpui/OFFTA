@@ -3265,6 +3265,7 @@ a:focus .info-card.news-center:before {
 
 .swiper-slide a {
     width: 100%;
+    margin-right: 40px !important;
 }
 
 .mySwiper {
