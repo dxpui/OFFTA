@@ -3229,7 +3229,7 @@ a:focus .info-card.news-center:before {
     }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 840px) {
     .footer-logo-align{
         margin-bottom: 5% !important;
         margin-top: 7% !important;
