@@ -6800,7 +6800,35 @@ agendas-container agendas-item agendas-published {
     .BI-report-height {
         height: 620px;
     }
+
+    .latest-all-news-button {
+        margin-left: 5% !important; 
+        margin-right: -5% !important;
+    }
 }
+
+/* Landscape */
+@media screen and (orientation:landscape) {
+    @media only screen and (min-width: 1020px) and (max-device-width: 1030px) {
+        .latest-all-news-button {
+            margin-left: 4% !important; 
+            margin-right: -4% !important;
+        }
+    }
+    @media only screen and (min-width: 1160px) and (max-device-width: 1180px) {
+        .latest-all-news-button {
+            margin-left: 10% !important; 
+            margin-right: -10% !important;
+        }
+    }
+    
+    @media only screen and (min-width: 1360px) and (max-device-width: 1400px) {
+        .latest-all-news-button {
+            margin-left: 8% !important; 
+            margin-right: -8% !important;
+        }
+    }
+} 
 
 .category-result-not-found {
     margin-top: 2rem;
